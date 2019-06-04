@@ -16,19 +16,37 @@ class Fruit(object):
     # End of user code
     def price(self):
         # Start of user code protected zone for price function body
-        return 3.14
+        return 0.
         # End of user code	
     # Start of user code -> methods for Fruit class
 
     # End of user code
 
 
-class Williams(Poire):
+class Pomme(Fruit):
     pass
-    # Start of user code -> properties/constructors for Williams class
+    # Start of user code -> properties/constructors for Pomme class
 
     # End of user code
-    # Start of user code -> methods for Williams class
+    # Start of user code -> methods for Pomme class
+
+    # End of user code
+
+class Golden(Pomme):
+    pass
+    # Start of user code -> properties/constructors for Golden class
+
+    # End of user code
+    # Start of user code -> methods for Golden class
+
+    # End of user code
+
+class Poire(Fruit):
+    pass
+    # Start of user code -> properties/constructors for Poire class
+
+    # End of user code
+    # Start of user code -> methods for Poire class
 
     # End of user code
 
@@ -44,6 +62,7 @@ class BelleHelene(Poire):
     """
     def __init__(self):
         self.cream = False
+        self.vanilla = False
         
         
     # Start of user code -> properties/constructors for BelleHelene class
@@ -60,39 +79,21 @@ class BelleHelene(Poire):
         pass
     # End of user code
 
+class Williams(Poire):
+    pass
+    # Start of user code -> properties/constructors for Williams class
+
+    # End of user code
+    # Start of user code -> methods for Williams class
+
+    # End of user code
+
 class Reinette(Pomme):
     pass
     # Start of user code -> properties/constructors for Reinette class
 
     # End of user code
     # Start of user code -> methods for Reinette class
-
-    # End of user code
-
-class Poire(Fruit):
-    pass
-    # Start of user code -> properties/constructors for Poire class
-
-    # End of user code
-    # Start of user code -> methods for Poire class
-
-    # End of user code
-
-class Golden(Pomme):
-    pass
-    # Start of user code -> properties/constructors for Golden class
-
-    # End of user code
-    # Start of user code -> methods for Golden class
-
-    # End of user code
-
-class Pomme(Fruit):
-    pass
-    # Start of user code -> properties/constructors for Pomme class
-
-    # End of user code
-    # Start of user code -> methods for Pomme class
 
     # End of user code
 
