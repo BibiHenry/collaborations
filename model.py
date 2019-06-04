@@ -16,7 +16,7 @@ class Fruit(object):
     # End of user code
     def price(self):
         # Start of user code protected zone for price function body
-        return 0.
+        return 3.14
         # End of user code	
     # Start of user code -> methods for Fruit class
 
@@ -47,6 +47,7 @@ class BelleHelene(Poire):
         
         
     # Start of user code -> properties/constructors for BelleHelene class
+        self._cache = []
 
     # End of user code
     def price(self):
@@ -55,6 +56,8 @@ class BelleHelene(Poire):
         # End of user code	
     # Start of user code -> methods for BelleHelene class
 
+    def misc(self):
+        pass
     # End of user code
 
 class Reinette(Pomme):
